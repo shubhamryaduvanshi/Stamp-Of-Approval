@@ -36,7 +36,7 @@ function Panel() {
   const sendEmail = e => {
     e.preventDefault()
 
-    emailjs.sendForm('service_ya0be7n', 'template_s1ogyxx', e.target, process.env.REACT_APP_EMAIL_API)
+    emailjs.sendForm('service_6zfmzhu', 'template_o9u407i', e.target, 'user_zeFyVEK2N01EyNFo5BO3A')
       .then((result) => {
         setShowMessage(true)
         setTimeout(() => {
