@@ -52,7 +52,7 @@ function AllInbox({ documents, sendEmail, deleteMessage }) {
                     <div className="approve__reject d-flex justify-content-around">
                       <form onSubmit={sendEmail}>
                         <div className="input-group d-none">
-                          <input  name="admin" value="Abhijeet Kushwaha" readOnly={true} type="text" />
+                          <input  name="admin" value="Shubham Yadav" readOnly={true} type="text" />
                         </div>
                         <div className="input-group d-none">
                           <input  name="from_name" value="Stamp Of Approval" readOnly={true} type="text" />
